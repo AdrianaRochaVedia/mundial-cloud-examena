@@ -1,10 +1,16 @@
 # Pegar aquí la salida de los 3 curl del Lab 3
 
 ## GET /poleras
-
+~ $ curl https://gerq8ghrva.execute-api.us-east-1.amazonaws.com/prod/poleras
+{"poleras":[{"archivo":"argentina.svg","url":"https://mundial-poleras-rocha.s3.amazonaws.com/poleras/argentina.svg"},{"archivo":"brasil.svg","url":"https://mundial-poleras-rocha.s3.amazonaws.com/poleras/brasil.svg"}],"total
 
 ## GET /partidos
+
+~ $ curl https://gerq8ghrva.execute-api.us-east-1.amazonaws.com/prod/partidos
+{"partidos":[{"local":"México","visitante":"Sudáfrica","estadio":"Estadio Azteca","id":"partido-001","grupo":"A","fecha":"2026-06-11"},{"local":"Brasil","visitante":"Marruecos","estadio":"MetLife Stadium","id":"partido-002","grupo":"B","fecha":"2026-06-12"},{"local":"Argentina","visitante":"Polonia","estadio":"Hard Rock Stadium","id":"partido-003","grupo":"C","fecha":"2026-06-13"},{"local":"España","visitante":"Japón","estadio":"SoFi Stadium","id":"partido-004","grupo":"D","fecha":"2026-06-14"},{"local":"Alemania","visitante":"Corea del Sur","estadio":"AT&T Stadium","id":"partido-005","grupo":"E","fecha":"2026-06-15"},{"local":"Francia","visitante":"Senegal","estadio":"Mercedes-Benz Stadium","id":"partido-006","grupo":"F","fecha":"2026-06-16"}],"total":6}~ $
 
 
 ## GET /partidos/partido-001
 
+~ $ curl https://gerq8ghrva.execute-api.us-east-1.amazonaws.com/prod/partidos/partido-001
+{"local":"México","visitante":"Sudáfrica","estadio":"Estadio Azteca","id":"partido-001","grupo":"A","fecha":"2026-06-11"}~ $ 
