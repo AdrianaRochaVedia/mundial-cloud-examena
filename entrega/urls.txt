@@ -1,4 +1,4 @@
-Repo GitHub:
-S3 web (Lab 2):
-API Gateway base (Lab 3):
+Repo GitHub: https://github.com/AdrianaRochaVedia/mundial-cloud-examena/actions/runs/27649721076/job/81770905042
+S3 web (Lab 2): https://mundial-web-rochaadriana.s3.us-east-1.amazonaws.com/index.html
+API Gateway base (Lab 3): https://gerq8ghrva.execute-api.us-east-1.amazonaws.com/prod
 Kubernetes puerto 30080 (Lab 4):
